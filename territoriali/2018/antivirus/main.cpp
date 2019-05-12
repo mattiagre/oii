@@ -56,8 +56,4 @@ int main()
 			out << s.find(virus) << ' ';
 		out << ' ';
 	}
-
-	in.close();
-	out.close();
-	return 0;
 }
