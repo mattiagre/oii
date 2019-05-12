@@ -20,7 +20,7 @@ int analizza(int from, int to) {
 		--zone[j];
 	if (i == from)
 		return analizza(i + 1, to);
-	else if (i = to)
+	else if (i == to)
 		return 1 + analizza(from, to);
 	else return 1 + analizza(from, i) + analizza(i + 1, to);
 }
