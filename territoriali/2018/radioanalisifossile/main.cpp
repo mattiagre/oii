@@ -28,6 +28,7 @@ int analizza(int from, int to) {
 int main() {
 	int T;
 	ifstream in("input.txt");
+	ofstream out("output.txt");
 	in >> T;
 	
 	for (int t = 1; t <= T; t++) {
