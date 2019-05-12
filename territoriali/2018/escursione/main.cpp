@@ -82,6 +82,6 @@ int main() {
 				punti[i][j].x = i;
 				punti[i][j].y = j;
 			}
-		out << "Case #" << t << " : " << esplora(H, W) << ‘\n’;
+		out << "Case #" << t << " : " << esplora(H, W) << 'n';
 	}
 }
