@@ -75,10 +75,10 @@ int main() {
 	in >> T;
 	for (int t = 1; t <= T; t++) {
 		int H, W;
-		cin >> H >> W;
+		in >> H >> W;
 		for (int i = 0; i < H; i++)
 			for (int j = 0; j < W; j++) {
-				cin >> punti[i][j].altitudine;
+				in >> punti[i][j].altitudine;
 				punti[i][j].x = i;
 				punti[i][j].y = j;
 			}
